@@ -1,10 +1,10 @@
 * {
     margin: 0;
+    justify-content: center;
 }
 
 body {
-    background-color: #000;
-}
+    background-color: rgb(59, 57, 57);}
 
 #filmList {
     display: flex;

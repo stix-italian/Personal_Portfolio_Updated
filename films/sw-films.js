@@ -12,10 +12,15 @@ for (let i = 0; i < films.length; i++) {
     let figImg = document.createElement('img')
     figImg.src = `https://starwars-visualguide.com/assets/img/films/${i + 1}.jpg`
     let figCaption = document.createElement('figcaption')
+    let figCaption2 = document.createElement('figcaption')
 
     figCaption.textContent = foundFilm.title
+    figCaption2.textContent = "Director: "+foundFilm.director
     posterFig.appendChild(figImg)
     posterFig.appendChild(figCaption)
+    posterFig.appendChild(figCaption2)
+    
+
 
     filmList.appendChild(posterFig)
 }

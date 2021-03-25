@@ -1,11 +1,19 @@
 * {
-    margin: 0;
+    margin: 2;
     box-sizing: border-box;
+    justify-content: center;
+    
 }
 
 #main {
     display: flex;
     flex-wrap: wrap;
+    
+    
+}
+
+body{
+    background-color: rgb(59, 57, 57);
 }
 
 figure > img {
